@@ -25,15 +25,6 @@ function Nav() {
             About
           </NavLink>
         </li>
-        <li className="nav__item">
-          <NavLink
-            className="nav__link"
-            activeClassName="nav__link--active"
-            to="/about/me"
-          >
-            All About Me
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
