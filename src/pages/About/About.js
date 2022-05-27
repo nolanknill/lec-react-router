@@ -2,6 +2,7 @@ import "./About.scss";
 import classImg from "../../assets/images/class-photo.jpg";
 
 export default function About() {
+  document.title = "Lecture: React Router | About Toronto Light Salmons";
   return (
     <main className="about">
         <h1>About the Toronto Light Salmons</h1>

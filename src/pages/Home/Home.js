@@ -1,6 +1,7 @@
 import "./Home.scss";
 
 const Home = () => {
+    document.title = "Lecture: React Router | Home";
     return (
         <main className="home">
             <h1>Home Page</h1>
