@@ -1,0 +1,20 @@
+@use "./styles/global.scss";
+
+.nav {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-top-width: 0;
+    padding: 1rem;
+
+    &__list {
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        cursor: pointer;
+    }
+}
