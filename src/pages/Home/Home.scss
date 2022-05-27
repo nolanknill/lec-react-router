@@ -1,5 +1,6 @@
+@use "../../styles/mixins.scss" as *;
+
 .home {
+    @include default-page-styles;
     background-color: #ccc;
-    min-height: 100vh;
-    padding: 1rem;
 }

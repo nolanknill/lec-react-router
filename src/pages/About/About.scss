@@ -1,7 +1,8 @@
+@use "../../styles/mixins.scss" as *;
+
 .about {
+    @include default-page-styles;
     background-color: lightsalmon;
-    min-height: 100vh;
-    padding: 1rem;
     display:flex;
     flex-direction: column;
 
